@@ -2,7 +2,7 @@ version: '3.9'
 networks:
   db_app: 
     driver: bridge
-services:
+services: 
   postgres:
     image: postgres:latest
     ports:
