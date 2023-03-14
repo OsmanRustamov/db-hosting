@@ -1,9 +1,9 @@
 CREATE TABLE IF NOT EXISTS hardware (
     hardware_id INTEGER NOT NULL,
-    cpu TEXT NOT NULL,
+    cpu CHAR NOT NULL,
     capacity_ram INT NOT NULL,
     capacity_ssd INT NOT NULL,
-    os TEXT NOT NULL
+    os CHAR NOT NULL
 );
 
 COMMENT IN COLUMN hardware.hardware_id  IS 'Идентификатор железа';
